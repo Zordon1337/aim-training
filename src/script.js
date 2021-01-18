@@ -14,7 +14,7 @@ const sumarPuntos = ()=>{
 	document.getElementById("points").textContent = points
 }
 
-const moverPersonaje = ()=>{
+const moveCharacter = ()=>{
 	const circle = document.querySelector(".circle");
 	randomX = Math.random()*500;
 	randomY = Math.random()*500;
@@ -24,7 +24,7 @@ const moverPersonaje = ()=>{
 
 document.querySelector(".circle").addEventListener("mouseenter",()=>{
 	sumarPuntos();
-	moverPersonaje();
+	moveCharacter();
 });
 
 
