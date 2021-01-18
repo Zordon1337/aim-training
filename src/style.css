@@ -1,0 +1,55 @@
+div,body,p {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	height: 100vh;
+	width: 100vw;
+	background-image: url('https://store-images.s-microsoft.com/image/apps.29480.13718476897670656.5331254e-1ef2-4220-ac88-5d202d4283c5.debe6e68-e303-48e9-8a39-fca310bcac17?mode=scale&q=90&h=720&w=1280');
+}
+
+
+.game-container {
+	margin: auto;
+	box-shadow: 0px 0px 15px #000;
+	border: 2px solid #000;
+}
+
+.game-info {
+	background: #000;
+	width: 600px;
+	font-family: century gothic;
+	text-align: right;
+	padding: 8px;
+	color: #fff;
+}
+
+.game-info span{
+	padding: 10px;
+}
+
+.game {
+	width: 600px;
+	height: 600px;
+	background: #222;
+}
+
+.circle {
+	background: rgba(139, 36, 114, 0.548);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #000;
+	box-shadow: 0px 0px 20px rgb(128, 34, 99);
+	display: flex;
+	position: relative;
+	transition: top 0.36s, left 0.36s
+}
+
+.circle span {
+	margin: auto;
+	font-size: 60px;
+}
