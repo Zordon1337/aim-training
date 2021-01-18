@@ -4,7 +4,7 @@ let seconds = 30;
 
 document.getElementById("time").textContent = seconds;
 
-const sumarPuntos = ()=>{
+const addingPoints = ()=>{
 	if (points >= PointsNeeded) {
 		alert("You Won!! You got the points needed.");
 		points = 0;
@@ -23,7 +23,7 @@ const moveCharacter = ()=>{
 }
 
 document.querySelector(".circle").addEventListener("mouseenter",()=>{
-	sumarPuntos();
+	addingPoints();
 	moveCharacter();
 });
 
