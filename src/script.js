@@ -1,6 +1,6 @@
 let points = 0;
-let PointsNeeded = 25;
-let seconds = 30;
+let PointsNeeded = 150;
+let seconds = 60;
 
 document.getElementById("time").textContent = seconds;
 
@@ -8,7 +8,7 @@ const addingPoints = ()=>{
 	if (points >= PointsNeeded) {
 		alert("You Won!! You got the points needed.");
 		points = 0;
-		seconds = 30;
+		seconds = 60;
     }
 	else points ++;
 	document.getElementById("points").textContent = points
@@ -16,8 +16,8 @@ const addingPoints = ()=>{
 
 const moveCharacter = ()=>{
 	const circle = document.querySelector(".circle");
-	randomX = Math.random()*500;
-	randomY = Math.random()*500;
+	randomX = Math.random()*1200;
+	randomY = Math.random()*1200;
 	circle.style.top = `${randomY}px`;
 	circle.style.left = `${randomX}px`;
 }
@@ -35,7 +35,7 @@ setInterval(()=>{
 		alert("You Lost!! Time is over.");
 		points = 0;
 	    document.getElementById("points").textContent = points;
-		seconds = 30;
+		seconds = 60;
 	}
 	
 } ,1000)
