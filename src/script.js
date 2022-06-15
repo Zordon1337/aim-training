@@ -1,6 +1,6 @@
 let points = 0;
-let PointsNeeded = 150;
-let seconds = 60;
+let PointsNeeded = 69;
+let seconds = 727;
 
 document.getElementById("time").textContent = seconds;
 
@@ -16,7 +16,6 @@ const addingPoints = ()=>{
 
 const moveCharacter = ()=>{
 	const circle = document.querySelector(".circle");
-	new Audio('./hit.mp3').play()
 	randomX = Math.random()*800;
 	randomY = Math.random()*800;
 	circle.style.top = `${randomY}px`;
