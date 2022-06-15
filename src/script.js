@@ -15,6 +15,8 @@ const addingPoints = ()=>{
 }
 
 const moveCharacter = ()=>{
+	var hit = new Audio('hit.mp3');
+        hit.play();
 	const circle = document.querySelector(".circle");
 	randomX = Math.random()*800;
 	randomY = Math.random()*800;
