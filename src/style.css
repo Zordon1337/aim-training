@@ -6,8 +6,8 @@ div,body,p {
 
 body {
 	display: flex;
-	height: 250vh;
-	width: 250vw;
+	height: 150vh;
+	width: 150vw;
 	background-image: url('https://store-images.s-microsoft.com/image/apps.29480.13718476897670656.5331254e-1ef2-4220-ac88-5d202d4283c5.debe6e68-e303-48e9-8a39-fca310bcac17?mode=scale&q=90&h=720&w=1280');
 }
 
