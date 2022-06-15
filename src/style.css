@@ -20,7 +20,7 @@ body {
 
 .game-info {
 	background: #000;
-	width: 1800px;
+	width: 600px;
 	font-family: century gothic;
 	text-align: right;
 	padding: 8px;
@@ -32,8 +32,8 @@ body {
 }
 
 .game {
-	width: 1800px;
-	height: 1000px;
+	width: 600px;
+	height: 600px;
 	background: #222;
 }
 
@@ -52,4 +52,15 @@ body {
 .circle span {
 	margin: auto;
 	font-size: 60px;
+}
+
+.button {
+	background-color: blueviolet;
+	align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }

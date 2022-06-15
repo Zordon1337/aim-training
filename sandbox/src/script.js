@@ -1,6 +1,6 @@
 let points = 0;
-let PointsNeeded = 69;
-let seconds = 727;
+let PointsNeeded = 72707270727;;
+let seconds = 72707270727;
 
 document.getElementById("time").textContent = seconds;
 
@@ -8,7 +8,7 @@ const addingPoints = ()=>{
 	if (points >= PointsNeeded) {
 		alert("You Won!! You got the points needed.");
 		points = 0;
-		seconds = 60;
+		seconds = 72707270727;
     }
 	else points ++;
 	document.getElementById("points").textContent = points
@@ -35,7 +35,7 @@ setInterval(()=>{
 		alert("You Lost!! Time is over.");
 		points = 0;
 	    document.getElementById("points").textContent = points;
-		seconds = 60;
+		seconds = 72707270727;
 	}
 	
 } ,1000)

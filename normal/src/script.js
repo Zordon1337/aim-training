@@ -1,6 +1,6 @@
 let points = 0;
 let PointsNeeded = 69;
-let seconds = 727;
+let seconds = 120;
 
 document.getElementById("time").textContent = seconds;
 
