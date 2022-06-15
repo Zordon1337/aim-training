@@ -16,8 +16,8 @@ const addingPoints = ()=>{
 
 const moveCharacter = ()=>{
 	const circle = document.querySelector(".circle");
-	randomX = Math.random()*1200;
-	randomY = Math.random()*1200;
+	randomX = Math.random()*800;
+	randomY = Math.random()*800;
 	circle.style.top = `${randomY}px`;
 	circle.style.left = `${randomX}px`;
 }
